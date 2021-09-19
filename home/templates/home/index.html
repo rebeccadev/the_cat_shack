@@ -10,18 +10,106 @@
 {% endblock %}
 
 {% block content %}
-    <div class ="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 mt-200">
-                <h2 class="display-4 text-white">
-                Our new collections have arrived
-                </h1>
-                <div class="my-3">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 py-3">Shop Now</a>
-                    </h4>
-                </div>
+
+      <div class="container marketing">
+    
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-4">
+            <h2 class="featurette-heading">Our new collection has arrived. <span class="text-muted">Enjoy.</span></h2>
+            <div class="my-3">
+                <h4>
+                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 py-3">Shop Now</a>
+                </h4>
             </div>
+          </div>
+          <div class="col-md-8">
+            <img src="/media/homeimage1.jpg" class="img-fluid" alt="cat with green cat wand">
+    
+          </div>
         </div>
-    </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2>About Us</h2>
+            <p>The Cat Shack has been running for over 10 years by twin sisters Rosie and Grace. As pedigree cat owners (Russian Blue and Burmilla) we understand the importance 
+               of providing our pets with the best quality products. We are based in West London, UK. Our aim is to provide you with not only the best luxury products but also
+                provide the best service online. <br> </p>
+            <p>We offer a variety of luxury goods for your feline friends, including bespoke cat trees and unqiue cat carriers, to transport your precious pal in style. All
+              of our products are sourced from the UK. We hope that you enjoy our store </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="/media/homepagepersiancat.jpg" class="img-fluid" alt="persian cat green eyes">
+    
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-md-7">
+            <h2>FAQ </h2>
+            <p> Click below to find answers to commonly asked questions.</p>
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-black text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      How long does shipping take? 
+                    </button>
+                  </h2>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    For our standard delivery shipping takes between 3-5 working days.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-black text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What is your returns policy?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Product not suitable? Or simply changed your mind? We accepted returns from 14 days from purchase provided the item is still in its original packaging .
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-black text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What if my product arrives faulty?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Please contact us within three days of receipt of your product where our customer services team can assist you.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-5">
+            <img src="/media/homepagecatcomputer.jpg" class="img-fluid" alt="persian cat green eyes">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div><!-- /.container -->
+    
 {% endblock %}
