@@ -1,0 +1,1 @@
+web: gunicorn the_cat_shack.wsgi:application
