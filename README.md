@@ -1,108 +1,247 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Cat Shack
+## MS4 Code institute project 
 
-Welcome rebeccadev,
+![Wireframes preview](readme_documentation/images/responsivepreview.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The Cat Shack has been created for my MS4 project with the code institute. It is an e-commerce store which utlizies stripe for payments. The website will build upon existing skills within HTML, CSS and Javascript, and utilize new skills learned within Python, Jinja and Django. 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Please [click here](https://the-cat-shack.herokuapp.com/) to view the website.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+### Index
 
-Another blue button should appear to click: _Open Browser_.
+- [Ux](#ux)
+- [Features](#features)
+- [Resources](#resources)
+- [Testing](#testing)
+- [Problems and solutions](#problems-and-solutions)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## UX
+ 
+### Aims
 
-To log into the Heroku toolbelt CLI:
+**Site owner's goal**
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+To build an elegant online store where luxury pet products can be purchased. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+**External user’s goal** 
 
-------
+Use the website to share vinyl collections and leave reviews on other collections.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ 
+#### User Stories
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+As a Store Owner I want to be able to:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+> -
+> -
+> -
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+As a customer I want to be able to:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+> -  *Use the site with ease on mobile, tablet and pc devices.*
+> -  
+> -  
+> -  
+> - 
+> - 
+> - 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Scope
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Due to time contraints I opted to make an MVP where CRUD functionality exists for admin users.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Skeleton
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Database
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ ![Lucid Chart](readme_documentation/images/dbdiagram.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Wireframes
 
-------
+Wireframes have been created using a mobile first approach. 
+Please [click here]() to view the PDF showing full wireframes for the site. 
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+![Wireframes preview]()
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Surface
+I have taken on inspiration from gaming websites such as the Oculus website. I feel the simple colour scheme
+of black, white and grey makes for a modern and clean look for the website. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+**Colours**
 
-**So….?**
+![colour scheme]()
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+I wanted to make a modern design, utilising a monochrome colour palette with a splash of green natural tones. White space has also been used to provide a sense of calm.
 
-**Can I opt out?**
+I have used (#ffffff) for my main text to make the typography contrasting and clear to the user against the white background. 
+and have used the text-muted class for my text within the footer section to stand out against the dark background. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**Typography**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+**Heading text**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The font Prata  has been used for headings - this font works well as it is bold,and elegant, providing an upmarket feel to the website. 
+
+**Body text**
+
+Lora has been used for the body text, this sans serif font is clearly legible to the user, especially on mobile devices. It also contrasts nicely
+against the heading font.
+
+
+**Imagery**
+
+Unsplash, Pexels and dreamstime have been used for all the photography within the website. I chose modern images that would fit with
+the colour palette and provide a modern and luxury feel to the website. 
+
 
 ---
+## Features
 
-Happy coding!
+### Current features
+
+- **Homepage**
+- **Products Page**
+- **Products detail page**
+- **Registration page** 
+- **Log in Page** 
+- **Profile page:** 
+- **Search feature** 
+- **Footer:** 
+
+
+### Features to be added
+
+These are features that lie out of the current scope, but could be added added at a later date.
+
+
+## Technologies 
+
+The following technologies have been used in the project.
+
+**Languages**
+
+- HTML 
+
+- CSS
+
+- Jquery
+
+- Python
+
+## Libraries and Frameworks
+
+* [Bootstrap](https://getbootstrap.com/) - a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+- [Django](https://www.djangoproject.com/) - a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+- [Django Cripsy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - django-crispy-forms will let you control the rendering behavior of your Django forms in a very elegant and DRY way.
+- [Jinja](https://jinja.palletsprojects.com/en/3.0.x/) - a web template engine for the Python programming language
+- [Stripe](https://stripe.com/ie) - offers payment processing software and application programming interfaces for e-commerce websites and mobile applications.
+
+**Integrations**
+- [Font Awesome](https://fontawesome.com/) - used for icons within the footer bar. 
+
+- [Google fonts](https://fonts.google.com/) - A library of 1005 free licensed font families. 
+
+
+**IDE, Version control, Repository storage**
+
+* [Git](https://git-scm.com/) - Distributed Version Control tool to store * versions of files and track changes.
+
+* [GitPod](https://gitpod.io/) - Workspace IDE.
+
+* [GitHub](https://github.com/) - Hosting service used to manage my Git repositories.
+
+
+## Resources
+
+The following resources have been used within the project.
+
+
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) for editing image sizes and editing the hero image.
+
+* [w3schools.com](https://www.w3schools.com/) - resource to improve general knowledge of HTML and CSS and Javascript
+
+* [Balsamiq](https://balsamiq.com/) - used for the creation of wireframes during UI design stage. 
+
+* [Stack Overflow](https://stackoverflow.com/) - general resource used for technical queries.
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used to debug HTML and CSS and to view responsiveness on different screen sizes.
+
+* [Lucid Chart](https://www.lucidchart.com/) - Database Relationship Diagrams Design Tool
+
+## Testing
+
+All testing for the website can be found [here]()
+
+ ## Problems and solutions
+
+### Design 
+
+## Deployment
+
+## Cloning the repository
+To clone the repository the following steps need to be taken.
+
+1. On GitHub, navigate to the main page of the repository.
+2. Click the green Clone or download Button under the repository name.
+3. Open Git Bash. 
+4. Change the current working directory to the location where you want the cloned directory. 
+5. Type git clone, and then paste the URL you copied earlier. 
+6. Press enter to create the local clone.
+
+### Run locally
+
+
+
+### Deploying to Heroku
+
+
+## Credits
+
+
+### Copy
+- Copy for the product images was sourced from [Pets At Home](https://www.petsathome.com/), [Amazon](https://www.amazon.com/)
+
+- Copy for the New Kitten blog post was sourced from [Trupanian](https://trupanion.com/blogs/kitten-care-101)
+
+- Copy for the Kerrping your cat entertained blog post was sourced from [Pet Secure](https://www.petsecure.com.au/pet-care/10-ways-keep-cat-entertained-youre-house/)
+
+The rest of the copy was written by myself.
+
+### Code
+
+- The project built upon the Boutique Ado project from The Code Institute.
+
+### Imagery
+
+- [Unsplash](https://unsplash.com/) was used for the images on the homepage.
+
+- [Pexels](https://www.pexels.com/) was used for blog images. 
+
+- [dreamstime](https://www.dreamstime.com/) was used for the product images.
+
+## Acknowledgements
+
+- Channel lead Gaff for advice and support with planning. 
+
+- Tutor support for help with technical queries, in particular John and Scott.
+
+- My mentor Aaron Sinnot for their advice and help throughout the project. 
