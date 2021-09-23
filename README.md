@@ -4,7 +4,7 @@
 ![Wireframes preview](readme_documentation/images/responsivepreview.png)
 
 
-The Cat Shack has been created for my MS4 project with the code institute. It is an e-commerce store which utlizies stripe for payments. The website will build upon existing skills within HTML, CSS and Javascript, and utilize new skills learned within Python, Jinja and Django. 
+The Cat Shack has been created for my MS4 project with the code institute. The Cat Shack is an e-commerce luxury pet store which utlizies stripe for payments. The website will build upon existing skills within HTML, CSS and Javascript, and utilize new skills learned within Python, Jinja and Django. 
 
 
 Please [click here](https://the-cat-shack.herokuapp.com/) to view the website.
@@ -30,11 +30,13 @@ Please [click here](https://the-cat-shack.herokuapp.com/) to view the website.
 
 **Site owner's goal**
 
-To build an elegant online store where luxury pet products can be purchased. 
+To build an elegant online store which reflects "The Cat Shack" brand where luxury pet products can be purchased.
+
+
 
 **External user’s goal** 
 
-Use the website to share vinyl collections and leave reviews on other collections.
+Purchase luxury pet goods with ease. 
 
 
  
@@ -42,21 +44,35 @@ Use the website to share vinyl collections and leave reviews on other collection
 
 As a Store Owner I want to be able to:
 
-> -
-> -
-> -
+> - *Add Products*
+> - *Edit Product Information*
+> - *Delete Products*
+> - *Add Blog Posts*
 
 
-As a customer I want to be able to:
+As a Site User I want to be able to:
 
 
 > -  *Use the site with ease on mobile, tablet and pc devices.*
-> -  
-> -  
-> -  
-> - 
-> - 
-> - 
+> -  *Learn more about the company via social media*
+> - *Be able to comment on blog posts*
+> - *Register for an account*
+> - *Log in and out of the e-commerce store with ease*
+
+As a Shopper I want to be able to: 
+> -  *View different products via categories*
+> -  *Sort products by price, rating and category*
+> -  *Search for a product easily*
+> - *Get answers to questions regarding shipping and faulty items*
+> - *Easily select the quantity of a product*
+> - *Adjust items within the shopping bag*
+> - *Easily enter profile information*
+> - *View an order confirmation once an order has been placed*
+> - *Receive email notification once an order has been placed*
+
+As a logged in Site User I want to be able to:
+> - *View my profile and have the ability to save profile information from the checkout*
+> - *View my order history*
 
 ## Scope
 
@@ -123,15 +139,21 @@ the colour palette and provide a modern and luxury feel to the website.
 - **Products detail page**
 - **Registration page** 
 - **Log in Page** 
-- **Profile page:** 
+- **Profile page** 
 - **Search feature** 
-- **Footer:** 
+- **Checkout Page** 
+- **Blog and comments Page** 
+- **Footer** 
 
 
 ### Features to be added
 
 These are features that lie out of the current scope, but could be added added at a later date.
 
+- **Enable functionality for newsletter in the footer**
+- **Add a contact form where users are able to make queries**
+- **Link items from the website to the blog to encourage further transactions**
+- **Add a gallery where users can upload images of their pets with products purchased from the website** 
 
 ## Technologies 
 
@@ -218,13 +240,13 @@ To clone the repository the following steps need to be taken.
 
 
 ### Copy
-- Copy for the product images was sourced from [Pets At Home](https://www.petsathome.com/), [Amazon](https://www.amazon.com/)
+- Copy for the product images was sourced from [Pets At Home](https://www.petsathome.com/) and [Amazon](https://www.amazon.com/)
 
 - Copy for the New Kitten blog post was sourced from [Trupanian](https://trupanion.com/blogs/kitten-care-101)
 
 - Copy for the Kerrping your cat entertained blog post was sourced from [Pet Secure](https://www.petsecure.com.au/pet-care/10-ways-keep-cat-entertained-youre-house/)
 
-The rest of the copy was written by myself.
+The copy on the homepage was written by myself.
 
 ### Code
 
