@@ -19,7 +19,7 @@
         <h1>{% block title %} {{ post.title }} {% endblock title %}</h1>
         <img src="{{ post.thumb.url }}" class="img-fluid" alt="Responsive image"/>
         <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
-        <p class="card-text ">{{ post.content | safe }}</p>
+        <p class="card-text ">{{ post.content | safe }}
       </div>
     </div>
   </div>
@@ -33,9 +33,9 @@
         {% with comments.count as total_comments %}
       <h6>{{ total_comments }} comments</h6>
 
-      <p>
+      <br>
         {% endwith %} {% for comment in comments %}
-    </p>
+
 
     <div class="comments" style="padding: 10px;">
       <p class="font-weight-bold">
