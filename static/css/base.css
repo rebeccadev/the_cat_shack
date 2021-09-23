@@ -1,23 +1,29 @@
-html {
+html,body {
     height: 100%;
-}
-
-#content {
-    flex: 1 0 auto;
 }
 
 body {
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #fff;
+    color: grey;
+    font-family: 'Lato';
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-family: 'Lato';
 }
+
+.content {
+    min-height: calc(100vh - 70px);
+     
+}
+
+.footer {
+    height: 50px;
+  }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Prata', serif;
    }
-
-.footer
 
 .bg-grey {
     background-color: rgb(78, 78, 78) !important;
@@ -27,16 +33,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 13rem !important;
   }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
+  .mt-190 {
+      margin-top: 11.875rem !important;
   }
-  
+
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
