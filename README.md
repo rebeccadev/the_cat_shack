@@ -84,7 +84,7 @@ Due to time contraints I opted to make an MVP where CRUD functionality exists fo
 
 #### Database
 
- ![Lucid Chart](readme_documentation/images/dbdiagram.png)
+ ![Lucid Chart](readme_documentation/images/dbschema.jpeg)
 
 #### Wireframes
 
