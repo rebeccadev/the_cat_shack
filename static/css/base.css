@@ -96,12 +96,6 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
-  @media (min-width: 992px) { 
-    .product-details-container {
-        margin-top: 13rem !important;
-    }
-}
-
    @media (min-width: 1200px) { 
     .product-text {
         margin-top: 3rem !important;
@@ -381,7 +375,7 @@ input[name='q']::placeholder {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 130px;
     }
 
     body {
