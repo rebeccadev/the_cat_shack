@@ -135,16 +135,33 @@ the colour palette and provide a modern and luxury feel to the website.
 ### Current features
 
 - **Homepage**
+   * Homepage featuring a call to action button to entice new users to check out the products available for the store.
+![Homepage Screenshot](readme_documentation/images/screenshotcalltoaction.png)
 - **Products Page**
+  * Products page which details all products that can be sorted via price, caterogry and rating.
+  ![Products Screenshot](readme_documentation/images/screenshotproductspage.png)
 - **Products detail page**
-- **Registration page** 
-- **Log in Page** 
-- **Profile page** 
+   * Product details page where users can find out more information on a product and add it to their shopping bag.
+   ![Product detail Screenshot](readme_documentation/images/screenshotptoductsdetailpage.png)
+- **Registration page/Log In Page** 
+   * Where website users can sign up for an account and log in to the store
+     ![Login Screenshot](readme_documentation/images/screenshotloginpage.png)
+- **Profile page**
+   * A user profile, website users can store their profile information here and it will also show their order history
+   ![Profile page Screenshot](readme_documentation/images/screenshotprofile.png)
 - **Search feature** 
-- **Checkout Page** 
-- **Blog and comments Page** 
-- **Footer** 
-
+   * A search bar where users can search for different products across the website
+   ![Searchbar Screenshot](readme_documentation/images/searchbar.png)
+- **Shopping bag**
+  * Users can adjust items in their shopping bag from this page.
+  ![Shopping bag Screenshot](readme_documentation/images/screenshotshoppingbag.png)
+- **Blog and comments Page**
+*The site owner can post blogs via the admin interface and users can comment on these. Which is great for customer interaction.
+ ![Blog Screenshot](readme_documentation/images/screenshotblogpage.png)
+- **Footer**
+The footer features links to social media platforms, which is great for marketing and encouraging brand loyalty. It also features
+a news letter where customers can receive news from the store. Quick links have been added for a good UX experience. 
+![Footer Screenshot](readme_documentation/images/screenshotfooter.png)
 
 ### Features to be added
 
