@@ -103,7 +103,7 @@ of black, white and grey makes for a modern and clean look for the website.
 
 **Colours**
 
-![colour scheme]()
+![colour scheme](readme_documentation/images/coolorspalette.png)
 
 I wanted to make a modern design, utilising a monochrome colour palette with a splash of green natural tones. White space has also been used to provide a sense of calm.
 
@@ -156,10 +156,10 @@ the colour palette and provide a modern and luxury feel to the website.
   * Users can adjust items in their shopping bag from this page.
   ![Shopping bag Screenshot](readme_documentation/images/screenshotshoppingbag.png)
 - **Blog and comments Page**
-*The site owner can post blogs via the admin interface and users can comment on these. Which is great for customer interaction.
+   *The site owner can post blogs via the admin interface and users can comment on these. Which is great for customer interaction.
  ![Blog Screenshot](readme_documentation/images/screenshotblogpage.png)
 - **Footer**
-The footer features links to social media platforms, which is great for marketing and encouraging brand loyalty. It also features
+   * The footer features links to social media platforms, which is great for marketing and encouraging brand loyalty. It also features
 a news letter where customers can receive news from the store. Quick links have been added for a good UX experience. 
 ![Footer Screenshot](readme_documentation/images/screenshotfooter.png)
 
