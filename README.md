@@ -1,7 +1,7 @@
 # The Cat Shack
 ## MS4 Code institute project 
 
-![Wireframes preview](readme_documentation/images/responsivepreview.png)
+![Am I Responsive image](readme_documentation/images/amiresponsiveimage.png)
 
 
 The Cat Shack has been created for my MS4 project with the code institute. The Cat Shack is an e-commerce luxury pet store which utlizies stripe for payments. The website will build upon existing skills within HTML, CSS and Javascript, and utilize new skills learned within Python, Jinja and Django. 
