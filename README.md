@@ -136,13 +136,13 @@ the colour palette and provide a modern and luxury feel to the website.
 
 - **Homepage**
    * Homepage featuring a call to action button to entice new users to check out the products available for the store.
-![Homepage Screenshot](readme_documentation/images/screenshotcalltoaction.png)
+![Homepage Screenshot](readme_documentation/images/screenshothomecalltoaction.png)
 - **Products Page**
   * Products page which details all products that can be sorted via price, caterogry and rating.
   ![Products Screenshot](readme_documentation/images/screenshotproductspage.png)
 - **Products detail page**
    * Product details page where users can find out more information on a product and add it to their shopping bag.
-   ![Product detail Screenshot](readme_documentation/images/screenshotptoductsdetailpage.png)
+   ![Product detail Screenshot](readme_documentation/images/screenshotptoductdetailpage.png)
 - **Registration page/Log In Page** 
    * Where website users can sign up for an account and log in to the store
      ![Login Screenshot](readme_documentation/images/screenshotloginpage.png)
@@ -151,7 +151,7 @@ the colour palette and provide a modern and luxury feel to the website.
    ![Profile page Screenshot](readme_documentation/images/screenshotprofile.png)
 - **Search feature** 
    * A search bar where users can search for different products across the website
-   ![Searchbar Screenshot](readme_documentation/images/searchbar.png)
+   ![Searchbar Screenshot](readme_documentation/images/screenshotsearchbar.png)
 - **Shopping bag**
   * Users can adjust items in their shopping bag from this page.
   ![Shopping bag Screenshot](readme_documentation/images/screenshotshoppingbag.png)
