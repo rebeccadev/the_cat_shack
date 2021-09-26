@@ -142,7 +142,7 @@ the colour palette and provide a modern and luxury feel to the website.
   ![Products Screenshot](readme_documentation/images/screenshotproductspage.png)
 - **Products detail page**
    * Product details page where users can find out more information on a product and add it to their shopping bag.
-   ![Product detail Screenshot](readme_documentation/images/screenshotptoductdetailpage.png)
+   ![Product detail Screenshot](readme_documentation/images/screenshotproductdetailpage.png)
 - **Registration page/Log In Page** 
    * Where website users can sign up for an account and log in to the store
      ![Login Screenshot](readme_documentation/images/screenshotloginpage.png)
@@ -261,13 +261,17 @@ To clone the repository the following steps need to be taken.
 
 - Copy for the New Kitten blog post was sourced from [Trupanian](https://trupanion.com/blogs/kitten-care-101)
 
-- Copy for the Kerrping your cat entertained blog post was sourced from [Pet Secure](https://www.petsecure.com.au/pet-care/10-ways-keep-cat-entertained-youre-house/)
+- Copy for the Keeping your cat entertained blog post was sourced from [Pet Secure](https://www.petsecure.com.au/pet-care/10-ways-keep-cat-entertained-youre-house/)
 
-The copy on the homepage was written by myself.
+- The copy on the homepage was written by myself.
 
 ### Code
 
 - The project built upon the Boutique Ado project from The Code Institute.
+
+- [Django Central](https://djangocentral.com/building-a-blog-application-with-django/) - the following tutorial was used to build the blog application.
+
+- [The Net Ninja](https://www.youtube.com/watch?v=LAIVhl2CG8E) Django Tutorial #17 - Uploading Media by The Net Ninja was used to add images to the blog.
 
 ### Imagery
 
