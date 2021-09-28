@@ -88,11 +88,11 @@ Due to time contraints I opted to make an MVP where CRUD functionality exists fo
 
 #### Wireframes
 
-Wireframes have been created using a mobile first approach. 
-Please [click here]() to view the PDF showing full wireframes for the site. 
+Wireframes have been created using a mobile first approach.
+Please [click here](https://github.com/rebeccadev/the_cat_shack/blob/main/readme_documentation/pdf/userstoryloggedinsiteuser.pdf) to view the PDF showing full wireframes for the site. 
 
 
-![Wireframes preview]()
+![Wireframes preview]((readme_documentation/images/wireframepreview.png))
 
 
 
