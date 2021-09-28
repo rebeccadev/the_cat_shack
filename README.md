@@ -92,7 +92,7 @@ Wireframes have been created using a mobile first approach.
 Please [click here](https://github.com/rebeccadev/the_cat_shack/blob/main/readme_documentation/pdf/userstoryloggedinsiteuser.pdf) to view the PDF showing full wireframes for the site. 
 
 
-![Wireframes preview]((readme_documentation/images/wireframepreview.png))
+![Wireframes preview](readme_documentation/images/wireframepreview.png)
 
 
 
@@ -237,14 +237,7 @@ All testing for the website can be found [here](https://github.com/rebeccadev/th
 ## Deployment
 
 ## Cloning the repository
-To clone the repository the following steps need to be taken.
 
-1. On GitHub, navigate to the main page of the repository.
-2. Click the green Clone or download Button under the repository name.
-3. Open Git Bash. 
-4. Change the current working directory to the location where you want the cloned directory. 
-5. Type git clone, and then paste the URL you copied earlier. 
-6. Press enter to create the local clone.
 
 ### Run locally
 
