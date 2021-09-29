@@ -3,7 +3,7 @@
 - [Code Validators](#Code-Validators)
 - [Testing User Stories](#Testing-User-Stories)
 - [Manual Testing](#Manual-testing-log)
-- [Error Handling](#Error-Handling)
+- [Responsiveness](#Responsiveness)
 
 
 ## Code Validators
@@ -45,3 +45,17 @@ These were by fixed by working through each app via the pep8 online website. Som
 ## Manual testing log
 
 ![Manual Testing Screenshot](readme_documentation/images/manualtesting.png)
+
+## Responsiveness
+
+Chrome developer tools was used to test responsiveness on the following devices.
+
+- Ipad pro
+- Ipad
+- Surface duo
+- pixel 2xl
+- pixel 2
+
+The website was tested physically on a google pixel 3a mobile phone. The results of this test are below. 
+
+![Google Pixel Test](readme_documentation/images/googlepixel3atesting.png)
