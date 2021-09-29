@@ -10,12 +10,20 @@
 
 ### W3C
 
+![W3C Screenshot](readme_documentation/images/htmlvalidator.png)
+
+W3C was used to test HTML. Errors were found relating to duplicate ID and missing alt tags on some
+images. These were then fixed to ensure the pages were free of errors.
+
+![W3C Fixed errors Screenshot](readme_documentation/images/htmlvalidatorsuccess.png)
 
 ### Jigsaw
 
+Jigsaw was used to ensure that CSS was properly validated. No errors were found.
+![Jigsaw Screenshot](readme_documentation/images/jigsawvalidator.png)
 
 ### JS Hint
-
+JS Hint was used to validate Javascript. There were a couple of errors regarding syntax and missing semi colons which were then fixed to ensure the code was error free. 
 
 ### PEP8 Online
 
