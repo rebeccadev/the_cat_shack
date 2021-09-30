@@ -16,7 +16,7 @@ Please [click here](https://the-cat-shack.herokuapp.com/) to view the website.
 - [Features](#features)
 - [Resources](#resources)
 - [Testing](#testing)
-- [Problems and solutions](#problems-and-solutions)
+- [Project changes](#project-changes)
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
@@ -83,6 +83,8 @@ Due to time contraints I opted to make an MVP where CRUD functionality exists fo
 ### Skeleton
 
 #### Database
+
+- SQLite was used during the development process. Heroku Postgres was used for production.
 
  ![Lucid Chart](readme_documentation/images/dbschema.jpeg)
 
@@ -230,9 +232,16 @@ The following resources have been used within the project.
 
 All testing for the website can be found [here](https://github.com/rebeccadev/the_cat_shack/blob/main/testing.md)
 
- ## Problems and solutions
+## Project changes
+
+### Changes to schema
+- I have made some changes to my database schema - for blog posts it was required to add a slug field onto the model.
+I also decided to utilize pillow to add images as I felt that the look of the blog would benefit greatly from photographs
+and add interest. 
 
 ### Design 
+- I also made changes to the initial wireframes, instead of a single landing page I decided to make a single action page
+with a call to action button at the top. 
 
 ## Deployment
 
