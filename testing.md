@@ -4,6 +4,7 @@
 - [Testing User Stories](#Testing-User-Stories)
 - [Manual Testing](#Manual-testing-log)
 - [Responsiveness](#Responsiveness)
+- [Bugs](#Bugs)
 
 
 ## Code Validators
@@ -59,3 +60,12 @@ Chrome developer tools was used to test responsiveness on the following devices.
 The website was tested physically on a google pixel 3a mobile phone. The results of this test are below. 
 
 ![Google Pixel Test](readme_documentation/images/googlepixel3atesting.png)
+
+## Bugs
+
+- When initially testing on mobile the product details copy section was cut off. This was solved by making a media query.
+
+- When testing resposiveness on the Samsung S20 the margin appeared alot larger on this device. 
+
+- It became apparent through testing that I hadn't conducted error handling.
+  - A 404 and 500 page were then created to resolve this issue. 
